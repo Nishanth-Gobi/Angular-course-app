@@ -7,10 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-app';
-  userSelection = true;
-
-  onNavigate(event: boolean){
-
-    this.userSelection = event;
-  }
 }
